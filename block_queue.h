@@ -2,6 +2,8 @@
  * 只有在异步写时，才会用到
  * m_data是循环数组
 */
+#pragma once
+
 #include <array>
 #include <condition_variable>
 #include <mutex>
